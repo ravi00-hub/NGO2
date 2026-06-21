@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NGO2", "..\..\..\Downloads\NGO2\NGO2\", "{3BAB584B-0EDE-F340-F67F-DC6F41386DEB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50893"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Downloads\NGO2\NGO2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50893\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50893"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Downloads\NGO2\NGO2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50893\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50893"
+		SlnRelativePath = "..\..\..\Downloads\NGO2\NGO2\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BAB584B-0EDE-F340-F67F-DC6F41386DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BAB584B-0EDE-F340-F67F-DC6F41386DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7030FF39-9472-47DB-B0C3-22378FED8F0E}
+	EndGlobalSection
+EndGlobal
