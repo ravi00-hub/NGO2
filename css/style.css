@@ -9228,7 +9228,7 @@ textarea.form-control {
 .hero-wrap {
     position: relative;
     overflow: hidden;
-    background-image: url('/images/banner-hand.jpeg') !important;
+    background-image: url('images/banner-hand.jpeg') !important;
     /* 'cover' use karo par background-position center rakho */
     background-size: cover;
     background-position: center center;
@@ -9267,7 +9267,7 @@ textarea.form-control {
 .hero1-wrap {
     position: relative;
     overflow: hidden;
-    background-image: url('/images/banner-hand2.jpeg') !important;
+    background-image: url('images/banner-hand2.jpeg') !important;
     /* 'cover' use karo par background-position center rakho */
     background-size: cover;
     background-position: center center;
