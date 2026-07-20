@@ -9160,3 +9160,272 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+
+/* Gallery items ke beech mein space dene ke liye */
+.ftco-gallery .d-md-flex {
+    gap: 10px; /* Yeh images ke beech mein 10px ka gap de dega */
+    margin-bottom: 10px; /* Neeche wali line se bhi gap dega */
+}
+
+/* Gallery items ko thoda aur clean dikhane ke liye */
+.ftco-gallery .gallery {
+    border-radius: 8px; /* Halke rounded corners professional dikhte hain */
+    transition: transform 0.3s ease; /* Hover effect ke liye */
+}
+
+    .ftco-gallery .gallery:hover {
+        transform: scale(1.02); /* Hover karne par halka sa zoom hoga */
+        z-index: 1;
+    }
+
+/* Arrow ko niche se hata kar side mein lana */
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.5em; /* Text aur arrow ke beech thoda space */
+    vertical-align: middle; /* Text ke center mein align karne ke liye */
+    content: ""; /* Pura arrow structure re-define kar rahe hain */
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+/* Agar aap chahte hain ki yeh arrow "Center" ke bilkul sath rahe */
+.nav-item.dropdown .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+/* Banner ko thoda dark aur readable banane ke liye */
+.hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* 0.5 ka matlab hai 50% darkness. 
+       Agar aur dark chahiye toh 0.6 ya 0.7 kar dena. */
+    background: rgba(0, 0, 0, 0.4) !important;
+    z-index: 0;
+}
+
+/* Banner image ko thoda sa blur karne se text aur zyada pop karega (Optional) */
+.hero-wrap {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Menu text ke piche halki black shadow dene ke liye */
+.navbar-dark .navbar-nav .nav-link {
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+}
+
+
+.hero-wrap {
+    position: relative;
+    overflow: hidden;
+    background-image: url('/images/banner-hand.jpeg') !important;
+    /* 'cover' use karo par background-position center rakho */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* 'vh' use karne se banner har screen size ke hisaab se height lega */
+    min-height: 50vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+    /* Overlay ko responsive banaya */
+    .hero-wrap::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4); /* 40% black tint */
+        z-index: 1;
+    }
+
+    /* Content ko center mein rakhne ke liye */
+    .hero-wrap .container {
+        position: relative;
+        z-index: 2;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+
+
+
+.hero1-wrap {
+    position: relative;
+    overflow: hidden;
+    background-image: url('/images/banner-hand2.jpeg') !important;
+    /* 'cover' use karo par background-position center rakho */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* 'vh' use karne se banner har screen size ke hisaab se height lega */
+    min-height: 50vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+    /* Overlay ko responsive banaya */
+    .hero1-wrap::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4); /* 40% black tint */
+        z-index: 1;
+    }
+
+    /* Content ko center mein rakhne ke liye */
+    .hero1-wrap .container {
+        position: relative;
+        z-index: 2;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+/* Counter section ko banner se niche push karne ke liye */
+.ftco-counter {
+    margin-top: 50px !important; /* Agar gap kam lage toh isse 80px ya 100px kar dena */
+    position: relative;
+    z-index: 10; /* Isse content banner ke upar nahi, balki uske niche show hoga */
+}
+
+/* Agar counter section pehle se absolute hai, toh usse static/relative karo */
+.ftco-intro {
+    margin-top: 0 !important;
+}
+
+/* Latest Donations Cards */
+.donation-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08); /* Soft shadow */
+    transition: 0.3s;
+    height: 100%;
+}
+
+    .donation-card:hover {
+        transform: translateY(-5px);
+    }
+
+.user-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #eee;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* New Donation Info Section */
+.donation-cta-section {
+    padding: 60px 0;
+    background: #f9f9f9;
+    border-top: 1px solid #eee;
+}
+
+.cta-box {
+    text-align: center;
+    padding: 20px;
+}
+
+    .cta-box img {
+        max-width: 250px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+/* Donation Section Background */
+.donation-cta-section {
+    padding: 80px 0;
+    background: #fdfdfd;
+}
+
+/* Premium Card Container */
+.donation-card-premium {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.05);
+    transition: all 0.4s ease;
+    text-align: center;
+}
+
+    .donation-card-premium:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    }
+
+/* Heading Styling */
+.section-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+    .section-title::after {
+        content: "";
+        width: 50px;
+        height: 3px;
+        background: #F96D00;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 2px;
+    }
+
+/* Images Styling */
+.donation-img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 15px;
+    border: 1px solid #eee;
+}
+
+/* Padding kam kar di taaki upar space kam ho jaye */
+.donation-cta-section {
+    padding: 30px 0; /* Pehle 80px tha, ab 30px kar diya */
+    background: #fdfdfd;
+}
+
+/* Right side wali image (Bank Details) ki width bada di */
+.donation-img-bank {
+    width: 100%;
+    max-width: 450px; /* Pehle 280px tha, ab bada kar 450px kar diya */
+    border-radius: 15px;
+    border: 1px solid #eee;
+}
+
+/* Left side wali image (QR) ki width waisi hi rakhi ya thodi kam ki */
+.donation-img-qr {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 15px;
+    border: 1px solid #eee;
+}
